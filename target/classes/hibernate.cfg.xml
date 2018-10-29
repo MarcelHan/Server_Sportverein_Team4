@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:sqlserver://vereinsserver.database.windows.net:1433;database=Vereinsdatenbank
+    </property>
+    <property name="connection.username">adminroot@vereinsserver</property>
+    <property name="connection.password">Password1</property>
+    <property name="connection.autocommit">true</property>
+    <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <mapping class="persistence.pojo.CompetitionPOJO"/>
+    <mapping class="persistence.pojo.CompetitionTeamPOJO"/>
+    <mapping class="persistence.pojo.DepartmentPOJO"/>
+    <mapping class="persistence.pojo.EncounterPOJO"/>
+    <mapping class="persistence.pojo.LeaguePOJO"/>
+    <mapping class="persistence.pojo.LineUpPersonPOJO"/>
+    <mapping class="persistence.pojo.PersonPOJO"/>
+    <mapping class="persistence.pojo.PersonTeamPOJO"/>
+    <mapping class="persistence.pojo.ResultPOJO"/>
+    <mapping class="persistence.pojo.RolePOJO"/>
+    <mapping class="persistence.pojo.RolePersonPOJO"/>
+    <mapping class="persistence.pojo.SportPOJO"/>
+    <mapping class="persistence.pojo.TeamPOJO"/>
+    <mapping class="persistence.pojo.TeamCompResultPOJO"/>
+    <mapping class="persistence.pojo.InternalTeamPOJO"/>
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

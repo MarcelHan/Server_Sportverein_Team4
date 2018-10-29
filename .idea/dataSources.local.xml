@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Vereinsdatenbank@vereinsserver.database.windows.net" uuid="729d336d-f532-45b8-81df-5cfe049ed876">
+      <database-info product="Microsoft SQL Server" version="12.00.900" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>adminroot@vereinsserver</user-name>
+      <introspection-schemas>Vereinsdatenbank:dbo</introspection-schemas>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="5545a2c5-a234-47b9-989d-94d0e261908c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>adminroot@vereinsserver</user-name>
+    </data-source>
+  </component>
+</project>
