@@ -1,10 +1,7 @@
 package persistence;
 
 import org.hibernate.SessionFactory;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
-import persistence.pojo.PersonPOJO;
 
 public class HibernateUtil {
     private static SessionFactory sessionFactory;

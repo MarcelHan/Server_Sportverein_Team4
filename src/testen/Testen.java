@@ -12,9 +12,9 @@ public class Testen {
         DatabaseFacade dbf = new DatabaseFacade();
 
         PersonPOJO person = new PersonPOJO();
-        person.setFirstName("Hermann");
-        person.setLastName("Schnemann");
-        person.setDateOfBirth(new Date(10-10-1982));
+        person.setFirstName("Simone");
+        person.setLastName("Kirchinger");
+        person.setDateOfBirth(new Date(12-12-1992));
         dbf.insert(person);
 
         List<PersonPOJO> allPersons = dbf.listAllPersons();
